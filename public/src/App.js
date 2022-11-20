@@ -188,7 +188,7 @@ export default function App() {
         aria-describedby="parent-modal-description"
       >
         <Box sx={{ ...styles, width: 400 }}>
-          <h2 id="parent-modal-title">Enter Data</h2>
+          <h2 id="parent-modal-title">Your Meeting has benn created Successfully</h2>
           <p>Name : {list[list.length - 1]?.name}</p>
           <p> Email : {list[list.length - 1]?.email}</p>
           <p> Comment : {list[list.length - 1]?.comment}</p>
